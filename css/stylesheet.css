@@ -1,4 +1,248 @@
-  h1 {
-  	color: #BDBDBD;
+/*****************************************
+General
+*****************************************/
 
-  }
+
+#wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0 5%;
+	border-radius: 30px;
+	font: 'Open Sans', sans-serif;
+	width:100%;
+	float: left;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+a, a.visited{
+	text-decoration:none;
+}
+
+
+img {
+	max-width:100%;
+
+}
+
+h3 {
+	margin: 0 0 1em 0;
+
+}
+
+
+/*****************************************
+Heading
+*****************************************/
+
+
+#logo {
+
+	text-align: center;
+	margin: 0;
+
+}
+
+/* orange header */
+header {
+	float:left; /* because of float need to set a width */
+	margin: 0 0 30px 0;
+	padding:15px 10px 0;
+	background: #FF8000;
+	border-color: #599a68;
+	text-align: center;
+	border-radius: 10px;
+	width:100%; 
+}
+
+h1, h2 {
+	font-family: 'Armata', sans-serif;
+  	color: #BDBDBD;
+  	font-size:1.75em;
+
+}
+
+
+
+/*****************************************
+Navigation
+*****************************************/
+
+#navbar {
+
+	text-align:center;
+	text-decoration: none;
+	max-width:100%;
+}
+
+#navbar a:hover {
+	font-weight:bold;
+
+}
+
+nav ul {
+	list-style:none;
+	margin: 0 10px;
+	padding: 0;
+
+
+}
+
+nav li {
+	display:inline-block;
+
+}
+
+nav a {
+	font-weight: 500;
+	padding: 15px 10px;
+
+}
+
+/*****************************************
+Footer
+*****************************************/
+
+footer {
+font-size: 0.75em;
+text-align:center;
+padding-top: 50px;
+color:#ccc;
+clear:both;
+
+
+}
+
+.social-icon {
+	width: 20px;
+	height:20px;
+	margin:0 5px;
+
+}
+
+/*****************************************
+Page: Portfolio
+*****************************************/
+#gallery {
+	margin: 0;
+	padding: 0;
+
+}
+
+#gallery li {
+	float: left;
+	margin:2.5%;
+	background-color:#A4A4A4;
+	color: #bdc3c7;
+	border: #A4A4A4;
+	border-radius:15px;
+	border-bottom: 2px solid #FF8000;
+	margin-bottom: 60px;
+	display:inline-block;
+	
+}
+
+#gallery li a p {
+	margin: 0;
+	padding:5%;
+	font-size:0.75em;
+	color:#1C1C1C;
+	text-decoration: none;
+	max-width: 30%;
+	max-height:30%;
+}
+
+
+		
+
+/*****************************************
+Page: About
+*****************************************/
+
+
+.profile-pic {
+	display:block;
+	max-width:150px;
+	margin: 0 auto 30px;
+	border-radius:100%;
+}
+
+#about {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 5%;
+	background: #BDBDBD;
+	border-radius: 5%;
+	font: 'Open Sans', sans-serif;
+	width:80%;
+	float: left;
+	border-bottom: 2px solid #FF8000;
+
+}
+
+
+/*****************************************
+Page: Contact
+*****************************************/
+
+.contact-info {
+	list-style:none;
+	padding:0;
+	margin:0;
+	font-size:.9em;
+
+}
+
+.contact-info a {
+	display:block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding:0 0 0 30px;
+	margin: 0 0 10px;
+
+}
+
+/* going up a dir and back down into img with '../img' */
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
+
+}
+
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
+
+}
+
+.contact-info li.linkedIn a {
+	background-image: url('../img/linkedin.jpg');
+
+}
+
+
+
+/*****************************************
+Colors
+*****************************************/
+
+
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a.hover {
+	color: #32673f;
+}
+
+
+/*     */
+body{
+	background-color: #fff;
+	color:#999;
+}
+

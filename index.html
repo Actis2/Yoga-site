@@ -1,90 +1,97 @@
 <!DOCTYPE html>
+<!--
 
+Website for my Main portfolio page, will have links to other sites and blog
 
-
-
+-->
 <html>
-
-<style>
-  h1 {
-  	color: #BDBDBD;
-
-  }
-
- </style>
-
   <head>
-  	<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+  	
   	<meta charset="utf-8">
-  	  <title>Aaron Loss | Designer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Aaron Loss | Designer</title>
   </head>
   <body>
+  <script src="script.js"></script>
   	<header>
-  	 <a href="index.html"></a>
+  	 <a href="index.html" id="logo"></a>
       <h1>Aaron Loss</h1>
       <h2>Designer</h2>
-  	 </a>
   	 <nav>
-  	 	<ul>
-  	 		<li><a href="index.html">Portfolio</a></li>
+  	 	<ul id="navbar">
+
+        <!-- Work on getting these to have drop down menus when applicable -->
+  	 		<li><a href="index.html" class="selected">Portfolio</a></li>
   	 		<li><a href="about.html">About</a></li>
-  	 		<li><a href="contact.html">Contact</a></li>
+  	 		<li><a href="blog.html">Blog</a></li>
+        <li><a href="websites.html">Websites</a></li>
+        <li><a href="contact.html">Contact</a></li>
 
   	 	</ul>
   	 </nav>
   </header>
+  <div id="wrapper">
+    <section>
+      <h3>My Trip to HongKong/Nepal/India/Istanbul</h3>
+    	<ul id="gallery">
+      		<li>
+      			<a href="img/hongkong-pano.jpg"></a>
+      			<img src="img/hongkong-pano.jpg" alt="">
+      			<p>Panoramic of Hong Kong from the top.</p>
+      		</li>
+      		<li>
+      			<a href="img/durbarsquare-pano.jpg"></a>
+      			<img src="img/durbarsquare-pano.jpg" alt="">
+      			<p>Panoramic shot of Durbar Square in Kathmandu before the spring of 2014 earthquakes.</p>
+      		</li>
+          <li>
+            <a href="img/kathmandu-stupa.jpg"></a>
+            <img src="img/kathmandu-stupa.jpg" alt="">
+            <p>One of the many stupas tucked away from the main streets in Kathmandu.</p>
+          </li>
+      		<li>
+      			<a href="img/rooftop-handstand.JPG"></a>
+      			<img src="img/rooftop-handstand.JPG" alt="">
+      			<p>Practicing my handstands on our Ashram rooftop.</p>
+      		</li>  		
+      		<li>
+      			<a href="img/yogacert-self.jpg"></a>
+      			<img src="img/yogacert-self.jpg" alt="">
+      			<p>After 5 weeks of intense yogi-ing.</p>
+      		</li>
+          <li>
+            <a href="img/rishikesh-ashram.jpg"></a>
+            <img src="img/rishikesh-ashram.jpg" alt="">
+            <p>The view of our Ashram on our way into town.</p>
+          </li> 
+      		<li>
+      			<a href="img/istanbul-cistern.jpg"></a>
+      			<img src="img/istanbul-cistern.jpg" alt="">
+      			<p>My favorite ancient site of Istanbul: Cistern.</p>
+      		</li>
+      		<li>
+      			<a href="img/istanbul-cat.jpg"></a>
+      			<img src="img/istanbul-cat.jpg" alt="">
+      			<p>Cats were around every corner waiting to be pet. No amount of time in Istanbul is enough if Im petting every cat I bump into!</p>
+      		</li>
+      		<li>
+      			<a href="img/istanbul-cutestreet.jpg"></a>
+      			<img src="img/istanbul-cutestreet.jpg" alt="">
+      			<p>A cute shopping area behind the Blue Mosque.</p>
+      		</li>
+      </ul>
+    </section>
 
-  <section>
-  	<ul>
-  		<h3>My Trip to HongKong/Nepal/India/Istanbul</h3>
-  		<li>
-  			<a href="img/hongkong-pano.jpg">
-  			<img src="img/hongkong-pano.jpg" alt="">
-  			<p>Panoramic of Hong Kong from the top.</p>
-  		</li>
-  		<li>
-  			<a href="img/durbarsquare-pano.jpg">
-  			<img src="img/durbarsquare-pano.jpg" alt="">
-  			<p>Panoramic shot of Durbar Square in Kathmandu before the spring of 2014 earthquakes.</p>
-  		</li>
-  		<li>
-  			<a href="img/rooftop-handstand.JPG">
-  			<img src="img/rooftop-handstand.JPG" alt="">
-  			<p>Practicing my handstands on our Ashram rooftop.</p>
-  		</li>  		
-  		<li>
-  			<a href="img/yogacert-self.jpg">
-  			<img src="img/yogacert-self.jpg" alt="">
-  			<p>After 5 weeks of intense yogi-ing.</p>
-  		</li>  	
-  		<li>
-  			<a href="img/istanbul-cistern.jpg">
-  			<img src="img/istanbul-cistern.jpg" alt="">
-  			<p>My favorite ancient site of Istanbul: Cistern.</p>
-  		</li>
-  		<li>
-  			<a href="img/istanbul-cat.jpg">
-  			<img src="img/istanbul-cat.jpg" alt="">
-  			<p>Cats were around every corner waiting to be pet. No amount of time in Istanbul is enough if I'm petting every cat I bump into!</p>
-  		</li>
-  		<li>
-  			<a href="img/istanbul-cutestreet.jpg">
-  			<img src="img/istanbul-cutestreet.jpg" alt="">
-  			<p>A cute shopping area behind the Blue Mosque.</p>
-  		</li>
-
-
-
-
-
-
-  	</ul>
-  </section>
-
-  <footer>
-  	<p>&copy; 2015 Aaron Loss.</p>
-  </footer>
-
-</body>
+    <footer>
+      <a href="http://twitter.com"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+      <a href="https://www.facebook.com/aaron.loss.3030"><img src="img/facebook-wrap.png" alt="Facebook Logo" class="social-icon"></a>
+    	<p>&copy; 2015 Aaron Loss.</p>
+    </footer>
+  </div>
+  </body>
 </html>
 
